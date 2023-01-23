@@ -10,8 +10,12 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 8px;
+  background-color: black;
   padding-left: 8%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   padding-right: 8%;
 }
 .logo{
@@ -205,7 +209,7 @@ padding: 10px;
 margin: 20px;
 position: inline-block;
 text-decoration: none;
-color: cyan;
+color: gray;
 font-size: x-large;
 }
 .myprojects h2{
@@ -242,7 +246,7 @@ button{
 }
 .contact h2{
    font-weight:200;
-   color: rgba(255, 0, 0, 0.829);;
+   color: #646cff
 }
 
  h2{
@@ -257,7 +261,6 @@ ul{
 .mysocials{
   background-color: orange;
   box-sizing: border-box;
-  height:;
   margin: 0;
 }
 .mysocials p{
@@ -266,24 +269,16 @@ ul{
 }
 
 
-.fa-facebook{
-  background-color:steelblue;
-  color: whitesmoke;
-  padding: 5px;
-  margin: 5px;
-  display: inline;
-  font-weight: bolder;
-  font-size: x-large;
 
-}
 .fa-twitter{
-  background-color:blue;
+  background-color: steelblue;
   padding: 5px;
   margin: 5px;
   color: whitesmoke;
   display: inline;
   font-weight: bolder;
   font-size: x-large;
+  border-radius: 5px;
 
 }
 .fa-github{
@@ -294,18 +289,10 @@ ul{
   display: inline;
   font-weight: bolder;
   font-size: x-large;
+  border-radius: 5px;
 
 }
-.fa-instagram{
-  background-color:brown;
-  padding: 5px;
-  margin: 5px;
-  color: whitesmoke;
-  display: inline;
-  font-weight: bolder;
-  font-size: x-large;
 
-}
 .fa-github{
   background-color:black;
   padding: 5px;
@@ -314,6 +301,7 @@ ul{
   display: inline;
   font-weight: bolder;
   font-size: x-large;
+  border-radius: 5px;
 
 }
 
@@ -325,8 +313,9 @@ ul{
   display: inline;
   font-weight: bolder;
   font-size: x-large;
-
+  border-radius: 5px;
 }
+
 
 
 
