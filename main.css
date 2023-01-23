@@ -1,0 +1,334 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo{
+  color: whitesmoke;
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #646cff;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 35px;
+}
+
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: lighter;
+
+}
+nav ul li a:hover{
+  color:#646cff;
+  transition: .4s;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+h1{
+  color: whitesmoke;
+  margin: 20px 0 20px;
+  font-size: 75px;
+
+}
+h3{
+  font-size: 20px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+
+}
+h4{
+  color: #fcfc;
+  font-size: 15px;
+}
+
+.about{
+  width: 100%;
+  background-color: yellow;
+  padding: 100px 0px;
+}
+
+h2{
+  color: #646cff;
+  margin: 20px;
+  padding: 30px 0px;
+  font-size: 30px;
+  
+}
+.main{
+  max-width: 95%;
+  margin: 0 auto;
+}
+p{
+  padding: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-size: 15px;
+
+}
+button{
+  background-color: #646cff;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  transition: .4s;
+
+}
+button:hover{
+  background-color: transparent;
+  cursor: pointer;
+
+}
+.skills{
+  background-color: yellowgreen;
+  padding: 45px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.skills ul {
+  display: grid;
+  grid-template-columns: minmax(100px, auto) minmax(100px, auto);
+  justify-content: center;
+  gap: 10px 20px;
+
+  font-size: small;
+}
+.skills a{
+  text-decoration: none;
+  color: grey;
+}
+h1{
+  color: whitesmoke;
+  margin: 20px 0 20px;
+  font-size: 75px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+p{
+  font-size: larger;
+  padding: auto;
+  color: grey;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+.fa-brands{
+  font-size: xxx-large;
+}
+.fa-brands.fa-html5{
+  color: black;
+}
+.fa-brands.fa-react{
+  color: steelblue;
+}
+.fa-brands.fa-square-js{
+  color: yellow;
+}
+.fa-brands.fa-vuejs{
+  color: green;
+}
+.fa-brands.fa-css3{
+  color: red;
+}
+.fa-brands.fa-square-git{
+  color: black;
+}
+
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px; 
+  display: block;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  text-align: center;
+  margin-top: 6px 0;
+  margin: auto;
+  box-sizing: border-box;
+  resize: vertical;
+}
+h2{
+  margin: 0;
+}
+
+.myprojects {
+  background-color: black;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+img{
+  width: 250px;
+  display: block;
+  font-size: larger;
+  margin: 20px;
+  height: 40%;
+  border-radius: 10px;
+  
+}
+.myprojects a{
+padding: 10px;
+margin: 20px;
+position: inline-block;
+text-decoration: none;
+color: cyan;
+font-size: x-large;
+}
+.myprojects h2{
+  font-size: larger;
+}
+
+
+input[type=submit] {
+  color: whitesmoke;
+  padding: 12px;
+  border: none;
+  margin: 20px;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #646cff;
+  margin: 15px;
+  padding: 10px;
+}
+button{
+  margin: 20px;
+}
+.contact{
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color:f2f2f2;
+  margin: auto; 
+  padding: 0;
+  text-align: center;
+}
+.contact h2{
+   font-weight:200;
+   color: rgba(255, 0, 0, 0.829);;
+}
+
+ h2{
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content:center;
+}
+
+.mysocials{
+  background-color: orange;
+  box-sizing: border-box;
+  height:;
+  margin: 0;
+}
+.mysocials p{
+  color: black;
+  font-weight: 100;
+}
+
+
+.fa-facebook{
+  background-color:steelblue;
+  color: whitesmoke;
+  padding: 5px;
+  margin: 5px;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+.fa-twitter{
+  background-color:blue;
+  padding: 5px;
+  margin: 5px;
+  color: whitesmoke;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+.fa-github{
+  background-color:black;
+  padding: 5px;
+  margin: 5px;
+  color: whitesmoke;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+.fa-instagram{
+  background-color:brown;
+  padding: 5px;
+  margin: 5px;
+  color: whitesmoke;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+.fa-github{
+  background-color:black;
+  padding: 5px;
+  margin: 5px;
+  color: whitesmoke;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+
+.fa-whatsapp{
+  background-color:green;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  display: inline;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+
+
+
+
+
